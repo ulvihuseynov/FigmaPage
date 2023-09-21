@@ -1,0 +1,100 @@
+
+@media screen  and (max-width:600px) {
+    .logo-info .title{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .navbar{
+        display: none;
+    }
+   button{
+    display: block;
+    
+   }
+   .section-info{
+    flex-direction: column-reverse;
+ }
+ .about-info ,
+ .about-svg  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .about-info{
+    text-align: center;
+ }
+   .about-svg{
+    margin-right: 50px;
+   }
+   .about-info .about-title{
+    font-size: 32px;
+    line-height: 40px; /* 114.286% */
+    }
+    .about-info .about-prg{
+    font-size: 16px;
+    line-height: 32px; /* 133.333% */
+
+    } 
+    .card{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .card-info{
+        width: 60%;
+    }
+    .member{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .member-info , .members-widget{
+        width:60% ;
+    }
+    .proposals{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .member{
+        gap: 30px;
+    }
+    .proposal{
+        margin-left: -26px;
+    }
+    .proposal, .proposal-info{
+        width: 60%;
+    }
+  }
+  
+  /* for mobile */
+  @media screen and (max-width: 1200px){
+    .navbar ul{
+        gap: 15px;
+      
+    }
+   .logo-info .title{
+        font-size: 28px;
+    }
+    .about-info .about-title{
+    font-size: 50px;
+    line-height: 50px; /* 114.286% */
+    }
+    .about-info .about-prg{
+    font-size: 18px;
+    line-height: 32px; /* 133.333% */
+
+    } 
+    .card{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+   
+  }

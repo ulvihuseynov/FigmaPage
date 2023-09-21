@@ -1,0 +1,48 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 33px 32px 31px;
+    border-bottom: 1px solid #E7E7E7;;
+}
+.logo-info{
+    display: flex;
+    gap: 8px;
+}
+.logo-info .title{
+    color: #303031;
+font-family: Open Sans;
+font-size: 32px;
+font-weight: 700;
+letter-spacing: -1.28px;
+}
+
+.navbar ul{
+display: flex;
+gap: 40px;
+}
+.navbar ul .nav-list .nav-link{
+    color:  #303031;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: -0.36px;
+}
+.navbar ul .nav-list:last-child a{
+    color:  #71A894;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 800;
+letter-spacing: -0.36px;
+}
+button {
+    display: none;
+   background-color: transparent;
+   border: none;
+}
+button .hambtn{
+    width: 50px;
+    height: 50px;
+   
+}
